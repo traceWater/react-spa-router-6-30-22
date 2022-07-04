@@ -1,5 +1,14 @@
+import { Route } from 'react-router-dom';
+
 const Welcome = () => {
-    return <h1>The Welcome Page Dale</h1>
+    return (
+        <section>
+            <h1>The Welcome Page Dale</h1>
+            <Route path="/welcome/new-user">
+                <p>'Welcome, new user!</p>
+            </Route>
+        </section>
+    );
 };
-// edit here
+
 export default Welcome;
